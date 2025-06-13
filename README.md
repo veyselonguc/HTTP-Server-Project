@@ -3,10 +3,15 @@
 
 ## 🚀 Özellikler
 ✅ Temel HTTP metod desteği: GET, POST, PUT, DELETE
+
 ✅ Statik dosya sunumu (.html, .css, .js, .json, .png, .jpg)
+
 ✅ Dizin içeriğini HTML olarak listeleme
+
 ✅ Basit MIME tipi çözümleyici
+
 ✅ Dosya yükleme (POST) ve güncelleme (PUT) desteği
+
 ✅ Sıfır bağımlılıkla saf Java kullanımı
 
 ## 📁 Proje Yapısı
