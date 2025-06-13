@@ -23,15 +23,18 @@
 
 ### Gereksinimler
   -Java JDK 8+
+
   -Terminal veya Java destekli bir IDE (IntelliJ, Eclipse, VS Code)
 
 ### Adımlar
   1- Proje dosyalarını aynı klasöre yerleştirin.
+
   2- Aşağıdaki komutları terminal üzerinden çalıştırın:
 ```bash
 javac *.java
 java MainHttpServer
 ```
+
   3- Sunucu varsayılan olarak localhost:8080 adresinde dinlemeye başlar.
 
 ## 🌐 Kullanım
@@ -59,6 +62,9 @@ curl -X DELETE http://localhost:8080/yeni.txt
 ## 🛠️ Geliştirme Notları
 
 -Statik içerikler ./src/www/ dizininden sunulur.
+
 -MIME tipi, ContentTypeResolver sınıfı tarafından belirlenir.
+
 -HTTP istekleri manuel olarak çözümlenir, harici bir framework kullanılmaz.
+
 -Çoklu istemciler için her bağlantı ClientHandler üzerinden bir thread olarak çalışır.
